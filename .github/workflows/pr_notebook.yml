@@ -28,7 +28,7 @@ jobs:
       CH10_2: "multihead-attention.ipynb self-attention-and-positional-encoding.ipynb"
       CH11: "chapter_optimization"
       CH14: "word2vec.ipynb approx-training.ipynb word-embedding-dataset.ipynb glove.ipynb subword-embedding.ipynb"
-      REST: "chapter_convolutional-neural-networks chapter_linear-networks utils"
+      REST: "chapter_convolutional-neural-networks chapter_linear-networks chapter_computer-vision utils"
     steps:
       - uses: actions/checkout@v3
       - name: Set up JDK 11
